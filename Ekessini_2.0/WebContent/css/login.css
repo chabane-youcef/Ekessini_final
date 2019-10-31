@@ -1,0 +1,169 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+
+body {
+  overflow-x: hidden;
+  background: url(../imgs/login-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-dark {
+  background-color: rgb(0, 200, 83)!important;
+}
+
+.nav-link {
+  color: #fff!important;
+}
+/* end of nav bar */
+
+.login {
+  background-color: rgba(0, 200, 83, 0.2);
+  width: 100%;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+}
+
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-outline-primary {
+  color: #00c853 !important;
+  border-color: #00c853 !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #00c853 !important;
+
+}
+
+
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+
+  padding: var(--input-padding-y) var(--input-padding-x);
+  height: auto;
+
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  cursor: text;
+  /* Match the input under the label */
+
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.small {
+  color: #00c853;
+}
+
+input {
+  outline: none !important;
+  border-width: 0 0 2px !important;
+  border-color: #00c853 !important;
+}
+
+.fa-lock {
+  color: #00c853;
+  position: absolute;
+  top: 1rem;
+  left: 90%;
+  font-size: 15px;
+}
+
+.fa-user {
+  color: #00c853;
+  position: absolute;
+  top: 1rem;
+  left: 90%;
+  font-size: 15px;
+}
+
+.form-control:focus {
+  border-color: rgba(0, 200, 83,.7)!important;
+  box-shadow: none
+}
+
+.form-control {
+  background-color: transparent!important;
+  color: white!important;
+  font-weight: 600!important;
+}
+
+
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white!important;
+  
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white
+}
+
+label {
+  color: white!important;
+} 

@@ -1,0 +1,105 @@
+/* background image */
+
+body {
+    background-image: url(../imgs/incription-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* background color */
+
+.bg-dark {
+    background-color: rgb(0,200,83)!important;
+}
+
+.bg-dark {
+    background-color: #1d2124 !important
+}
+
+
+
+
+/* card */
+
+.card {
+    border-color: rgb(0, 200, 83)!important;
+    background-color: rgba(207, 198, 198, 0.3)!important;
+}
+
+select {
+    background-color: transparent!important;
+    color: rgb(71, 71, 71)!important;
+    font-weight: 700!important;
+    border: none!important;
+    border-bottom: 2px solid rgb(0, 200, 83)!important;
+}
+
+.custom-select:focus {
+    border-color: transparent!important;
+    box-shadow: none!important;
+    border-bottom: 2px solid rgb(0, 200, 83)!important
+}
+
+.form-control {
+    background-color: transparent!important;
+    border: none!important;
+    font-weight: 700!important;
+    border-bottom: 2px solid rgb(0, 200, 83)!important;
+}
+
+input[type=text],inout[type=password],input[type=date],input[type=time]{
+    color: rgb(71, 71, 71)!important;
+}
+
+
+.form-control:focus {
+    border-color: transparent!important;
+    box-shadow: none!important;
+    border-bottom: 2px solid rgb(0, 200, 83)!important;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(71, 71, 71)!important;
+    opacity: 0.8!important; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(71, 71, 71)!important;
+    
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(71, 71, 71)!important;
+    
+  }
+
+  .card-header {
+      font-weight: 700;
+  }
+
+  /* btn */
+
+  .btn-primary {
+    color: #fff;
+    background-color: rgb(0, 200, 83)!important;
+    border-color: rgb(0, 156, 65)!important
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #23af5d!important;
+    border-color: rgb(0, 156, 65)!important
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: none!important
+}
+
+.btn-block {
+    width: 60%!important;
+    margin:auto;
+}
+
+  
